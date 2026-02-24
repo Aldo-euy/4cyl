@@ -1,0 +1,60 @@
+body {
+    background: url('SHIPNEX.png');
+    font-family: Georgia;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    border:#312d2d
+    background-size: fullscreen;
+    background-position: center;
+}
+
+.logo {;
+    filter: brightness(1000);
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: rgba(52, 52, 52, 0.7);
+    padding: 40px;
+    border-radius: 14px;
+    background: rgba(21, 21, 21, 0.6);
+    border: 1px solid #3a3a3a;
+    box-shadow: 0 0 30px rgba(45,212,191,0.2);
+    width: 420px;
+    color: white;
+}
+
+.login-btn {
+    font-family: 'Georgia', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border: rgb(255, 145, 0);
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.login-btn:hover {
+    background-color: #6e6e6e;
+}
+
+.square {
+    background: #050404;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    color : #fff;
+}
+
+a:hover {
+    color: #ff0c0c;
+}
