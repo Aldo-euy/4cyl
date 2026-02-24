@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <form>
-    <label for="username">Username:</label>
-    <input type="text" name="username" id="username">
-  </form>
-    <br>
-  <form>
-    <label for="user-pw">Password:</label>
-    <input type="password" name="user-pw" id="user-pw">
-  </form>
+
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="login-container">
+
+    <div class="login-box">
+      <h2>SELAMAT DATANG DI</h2>
+
+      <img src="logo-remove.png" alt="Logo" class="logo" length="300" width="300">
+      <p>Tingkatkan penjualanmu hanya dengan 1x klik</p>
+
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="Masukkan username atau email">
+      </div>
+
+      <br>
+
+      <div class="form-group">
+        <label for="user-pw">Password</label>
+        <input type="password" name="user-pw" id="user-pw" placeholder="Password">
+      </div>
+
+      <input type="submit" value="Login" class="login-btn">
+      <br><br>
+      <a href="./reset.html">Lupa Kata Sandi?</a>
+      <br><br>
+      <div>Belum Punya Akun? <a href="./register.html">Daftar Sekarang</a></div>
+
+    </div>
+
+</body>
 </html>
